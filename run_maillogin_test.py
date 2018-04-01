@@ -14,6 +14,9 @@ def find_newest_report(testreport):
     return newest_report
 
 if __name__ == '__main__':
+    """
+	仍然是多所多
+	"""
     now = time.strftime('%Y-%m-%d-%H-%M-%S')
     filename = './mail163/report/HTMLReport/' + now + '-result.html'
     with open(filename, 'wb') as f:
